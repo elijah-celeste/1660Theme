@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: postoffice UVs.ma
-//Last modified: Sat, Apr 21, 2018 11:05:46 PM
+//Last modified: Sat, Apr 21, 2018 11:10:15 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -15,15 +15,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C5735A7B-47E9-BEDC-E63F-CCB87DEE05DB";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.0515129271729737 11.129171939250185 28.242168121967087 ;
-	setAttr ".r" -type "double3" -13.076862971822329 -358.20000000011999 -1.7402245371844196e-016 ;
+	setAttr ".t" -type "double3" -10.707482931528325 12.92460059171831 18.761259152552284 ;
+	setAttr ".r" -type "double3" -22.676862971820324 -387.40000000002931 0 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 0 0 ;
 	setAttr ".rpt" -type "double3" 3.0700603226019564e-014 1.6114178315487005e-015 6.7698429636977293e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CD8D178B-46F0-E04C-3A93-F9BC04572CFC";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 27.165374113187628;
+	setAttr ".coi" 21.665827619838922;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
