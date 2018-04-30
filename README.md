@@ -1,4 +1,4 @@
-Final Project for DGM 1660 
+Final Project for DGM 1660 - Steampunk Western Theme
 1. Robot Animation
 2. Steampunk Guitar
 3. Railroad Lantern
